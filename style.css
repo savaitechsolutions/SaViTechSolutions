@@ -214,3 +214,48 @@ footer{
     line-height:1.8;
 
 }
+.btn{
+
+    display:inline-block;
+
+    padding:14px 30px;
+
+    margin:10px;
+
+    background:#38bdf8;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+}
+
+.btn:hover{
+
+    background:#0ea5e9;
+
+}
+
+.btn-outline{
+
+    background:transparent;
+
+    border:2px solid white;
+
+    color:white;
+
+}
+
+.btn-outline:hover{
+
+    background:white;
+
+    color:#0f172a;
+
+}
