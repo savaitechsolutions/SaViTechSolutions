@@ -1,3 +1,52 @@
+nav{
+
+    background:#111827;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 8%;
+
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+nav a:hover{
+
+    color:#38bdf8;
+
+}
 *{
     margin:0;
     padding:0;
@@ -41,11 +90,30 @@ h2{
 }
 
 .card{
+
     border:1px solid #ddd;
-    border-radius:10px;
-    padding:20px;
+
+    border-radius:12px;
+
+    padding:25px;
+
     text-align:center;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+
+    cursor:pointer;
+
+    background:white;
+
+}
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,0.2);
+
 }
 
 footer{
@@ -53,4 +121,96 @@ footer{
     color:white;
     text-align:center;
     padding:20px;
+}
+.hero-text{
+
+    max-width:900px;
+
+    margin:25px auto;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+}
+
+.hero-buttons{
+
+    margin-top:40px;
+
+}
+
+.btn-primary{
+
+    background:#38bdf8;
+
+    color:white;
+
+    padding:14px 30px;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    margin-right:20px;
+
+    font-weight:bold;
+
+}
+
+.btn-secondary{
+
+    border:2px solid white;
+
+    color:white;
+
+    padding:14px 30px;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}
+
+.btn-primary:hover{
+
+    background:#0284c7;
+
+}
+
+.btn-secondary:hover{
+
+    background:white;
+
+    color:#111827;
+
+}
+.about{
+
+    padding:80px 12%;
+
+    text-align:center;
+
+}
+
+.about h2{
+
+    margin-bottom:30px;
+
+    font-size:36px;
+
+}
+
+.about p{
+
+    max-width:900px;
+
+    margin:20px auto;
+
+    font-size:20px;
+
+    line-height:1.8;
+
 }
